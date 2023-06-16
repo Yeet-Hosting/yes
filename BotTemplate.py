@@ -84,7 +84,7 @@ def findcharlength(txtfile):
 def doUpdate():
     if not replit: return None
     main = urllib.request.urlopen(
-        "https://github.com/o7-Fire/PythonExecutorDiscordv2becausevolasdeletedit/raw/main/main.py")
+        "https://raw.githubusercontent.com/Yeet-Hosting/yes/main/main.py")
     with open('main.py', 'wb') as output:
         output.write(main.read())
         
