@@ -15,7 +15,7 @@ import time
 import random
 import urllib.request
 
-TOKEN = os.environ['Token']
+TOKEN = os.environ['TOKEN']
 if TOKEN is None:
     print("no token mfw")
     raise Exception("NO TOKEN IN ENVIRONMENT")
